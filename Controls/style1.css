@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+}
+header{
+    height: 290vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+h1{
+    font-size: 5vw;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    
+}
+.char {
+    transform: translateY(115px);
+    transition: transform .5s;
+}
